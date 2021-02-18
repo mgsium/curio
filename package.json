@@ -4,7 +4,7 @@
   "description": "A typescript implementation of Curio Blog.",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode development"
   },
@@ -36,6 +36,7 @@
     "file-loader": "^6.2.0",
     "firebase": "^8.2.4",
     "html-webpack-plugin": "^4.3.0",
+    "mocha": "^8.3.0",
     "react-feather": "^2.0.9",
     "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
