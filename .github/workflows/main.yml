@@ -28,6 +28,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
+          
+      - run: npm install && npm run-script build
+      - run: cp ./public/md ./dist/public/md -r
+      - run: npm run-script test
+      
       - name: Netlify Actions
         # You may pin to the exact commit or the version.
         # uses: nwtgck/actions-netlify@db90f8c196ec8808d9765741da1be62c48db8867
@@ -38,8 +43,4 @@ jobs:
         with:
           publish-dir: ./dist
           deploy-message: "Auto-deployed from GitHub"
-          secrets: '["ppbt4NZr3GYekw3yj1mtIWRn7lb3n_9Vew5OKvt0slw", "3ff6cf91-4147-4934-a691-3e987868c03c"]'
         
-      - run: npm install && npm run-script build
-      - run: cp ./public/md ./dist/public/md -r
-      - run: npm run-script test
