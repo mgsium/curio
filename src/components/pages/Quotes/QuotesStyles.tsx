@@ -7,14 +7,14 @@ const Styles = {
         -o-transition: font-size 2s;
         transition: font-size 2s;
         font-size: 1.1em;
-        font-family: Kreon, serif;
+        font-family: Quicksand, serif;
     `,
     quoteJumbotronStyles: css`
         background: white;
         border: 3px solid whitesmoke;
         transition: all 2s;
         
-        .quote_text: { color: #999999; }
+        & .quote_text: { color: #999999; }
 
         &:hover {
             border-color: #C4C4C4;

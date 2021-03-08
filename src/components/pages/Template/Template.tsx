@@ -26,19 +26,16 @@ export default class Template extends React.Component<any, State> {
     render() {
         return (
             <div className={ cx( Styles.PageStyles ) }>
-                <div style={{"width": "100%", "borderBottom": "5px solid whitesmoke"}}>
+                <br/><br/>
+                <div style={{ display: "table", marginLeft: "auto", marginRight: "auto" }}>
+                    <h1 className={ cx( Styles.BlogHeader ) }>Curio.</h1>
+                    <h6 className={cx( Styles.subHeader )}>The Personal Blog of Musab Guma'a</h6>
                 </div>
-                <Container>
-                    <header>
-                        <div style={{ margin: 48 }}>
-                            <h1 className={ cx( Styles.BlogHeader) }>Curio.</h1>
-                            <h6 style={{ textAlign: "center" }}>The Personal Blog of Musab Guma'a</h6>
-                        </div>
-                        <hr style={{ border: "1.5px solid whitesmoke", marginBottom: 15 }}/>
-                        <NavigationPanel activeKey="/"/>
-                        <hr style={{ border: "1.5px solid whitesmoke" }}/>
-                    </header>
-                </Container>
+                <br/><br/>
+                {/* <hr style={{ border: "1.5px solid whitesmoke", marginBottom: 15 }}/> */}
+                <NavigationPanel activeKey="/"/>
+                {/* <hr style={{ border: "1.5px solid whitesmoke" }}/> */}
+                <br/><br/>
                 <Container>
                     {this.props.children}
                 </Container>

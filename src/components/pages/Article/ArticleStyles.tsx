@@ -30,7 +30,7 @@ const Styles = {
         blockquote > p {
             color: #666;
             font-size: 20pt;
-            font-family: Kreon, serif;
+            font-family: Lato, serif;
             text-align: center;
             border-top: 2px solid whitesmoke;
             border-bottom: 2px solid whitesmoke;

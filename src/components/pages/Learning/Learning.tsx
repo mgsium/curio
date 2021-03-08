@@ -62,9 +62,9 @@ export default class Learning extends React.Component<Props, State> {
             case EntryType.MATH:
                 return { name: "Math", variant:  "list-group-item-secondary"};
             case EntryType.HISTORY:
-                return { name: "History", variant: "list-group-item-danger"};
+                return { name: "History", variant: "list-group-item-info"};
             default:
-                return { name: "Other", variant: "list-group-item-warning"};
+                return { name: "Other", variant: "list-group-item-light"};
         }
     }
 

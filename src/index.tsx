@@ -7,7 +7,7 @@ import App from "./App";
 
 WebFont.load({
     google: {
-        families: ["Libre Caslon Display", "Kreon", "Ubuntu"]
+        families: ["Quicksand", "Lato", "Lora"]
     }
 })
 

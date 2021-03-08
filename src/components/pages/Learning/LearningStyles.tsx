@@ -58,11 +58,12 @@ const Styles = {
     entryListStyles: css`
         li {
             border-radius: 0px !important;
-            transition: all 0.5s;
+            transition: all .25s;
 
             &:hover {
                 cursor: pointer;
                 opacity: 0.8;
+                transform: scale(1.02);
                 border-radius: .7rem !important;
             }
         }

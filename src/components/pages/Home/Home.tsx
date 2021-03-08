@@ -9,6 +9,7 @@ import ArchiveStyles from "../Archive/ArchiveStyles";
 import { Container, Row, Col } from "react-bootstrap";
 import { Linkedin, GitHub, Twitter } from "react-feather";
 import { Link } from "react-router-dom";
+import GlobalStyles from "../../GlobalStyles";
 
 type Props = {};
 type State = {};
@@ -43,13 +44,13 @@ export default class Home extends React.Component<Props, State> {
                                     <p>If you would like to contact me, you can find me at...</p>
                                     <div className="ml-auto mr-auto" style={{ padding: 20, display: "table" }}>
                                         <a style={{ margin: 20 }} href="https://www.linkedin.com/in/musabgumaa/" target="_blank" rel="noreferrer">
-                                            <Linkedin size={50}/>
+                                            <Linkedin className={cx( GlobalStyles.linkedInIcon )} size={50}/>
                                         </a>
                                         <a style={{ margin: 20 }} href="https://github.com/mgsium" target="_blank" rel="noreferrer">
-                                            <GitHub size={50}/>
+                                            <GitHub className={cx( GlobalStyles.githubIcon )} size={50}/>
                                         </a>
                                         <a style={{ margin: 20 }} href="https://twitter.com/musabgumaa" target="_blank" rel="noreferrer">
-                                            <Twitter size={50}/>
+                                            <Twitter className={cx( GlobalStyles.twitterIcon )} size={50}/>
                                         </a>
                                     </div>
                                 </div>
