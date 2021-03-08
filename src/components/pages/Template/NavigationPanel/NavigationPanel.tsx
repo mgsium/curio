@@ -18,26 +18,14 @@ export default class NavigationPanel extends React.Component<Props, State> {
 
     render() {
         return (
-            <Nav className={cx( Styles.navigationStyles )} activeKey={this.props.activeKey}>
-                <Nav.Item>
+            <div className={cx( Styles.navigationStyles )}>
                     <Link to="/">Home</Link>
-                </Nav.Item>
-                <Nav.Item>
                     <Link to="/quotes">Quotes</Link>
-                </Nav.Item>
-                <Nav.Item>
                     <Link to="/books">Books</Link>
-                </Nav.Item>
-                <Nav.Item>
                     <Link to="/learning">Learning</Link>
-                </Nav.Item>
-                <Nav.Item>
                     <Link to="/archive">Archive</Link>
-                </Nav.Item>
-                <Nav.Item>
                     <Link to="/projects">Projects</Link>
-                </Nav.Item>
-            </Nav>
+            </div>
         )
     }
 
