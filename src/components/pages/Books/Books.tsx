@@ -37,11 +37,14 @@ export default class Books extends React.Component<Props, State> {
             { title: "Einstein's Unfinished Revolution", author: "Lee Smolin", goodreads_link: "https://www.goodreads.com/book/show/40917082-einstein-s-unfinished-revolution" },
             { title: "The Joy Luck Club", author: "Amy Tan", goodreads_link: "https://www.goodreads.com/book/show/7763.The_Joy_Luck_Club" },
             { title: "Either/Or: A Fragment of Life", author: "Søren Kierkegaard", goodreads_link: "https://www.goodreads.com/book/show/24970.Either_Or" },
+            { title: "Fear and Trembling", author: "Søren Kierkegaard", goodreads_link: "https://www.goodreads.com/book/show/24965.Fear_and_Trembling" },
             { title: "Closing Time", author: "Joseph Heller", goodreads_link: "https://www.goodreads.com/book/show/223737.Closing_Time" },
             { title: "Fight Club", author: "Chuck Palahniuk", goodreads_link: "https://www.goodreads.com/book/show/36236124-fight-club" },
             { title: "Indistractable", author: "Nir Eyal", goodreads_link: "https://www.goodreads.com/book/show/44595007-indistractable" },
             { title: "Where Wizards Stay Up Late: The Origins of the Internet", author: "Katie Hafner, Matthew Lyon", goodreads_link: "https://www.goodreads.com/book/show/281818.Where_Wizards_Stay_Up_Late" },
-            { title: "Digital Minimalism", author: "Cal Newport", goodreads_link: "https://www.goodreads.com/book/show/40672036-digital-minimalism" }
+            { title: "Digital Minimalism", author: "Cal Newport", goodreads_link: "https://www.goodreads.com/book/show/40672036-digital-minimalism" },
+            { title: "Fahrenheit 451", author: "Ray Bradbury", goodreads_link: "https://www.goodreads.com/book/show/13079982-fahrenheit-451" },
+            { title: "Bad Blood", author: "John Carreyrou", goodreads_link: "https://www.goodreads.com/book/show/37976541-bad-blood" }
         ]
     }
 
